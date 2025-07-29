@@ -1,16 +1,29 @@
+/* To-do: 
+    . responsiveness in mobile devices. 
+    . english and russian translations
+*/
+
+
 body {
-    color: #eee;
+    color: #fff;
     background-color: #333;
 }
 
-#container {
+.container {
     width: 800px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #555;
+    border-radius: 4px;
 }
 
-#footer {
+.footer {
+    background: #222;
+    color: #999;
+    padding: 5px;
+}
+
+.footer > p {
     text-align: center;
 }
 
@@ -44,12 +57,32 @@ img {
     border-radius: 10px;
 }
 
-.smaller {
-    width: 50%;
+.center {
+    /* not working yet */
+    text-align: center;
+}
+
+.img-size {
+    width: 300px;
 }
 
 table {
     width: 100%;
+    background: #7f7f7f;
+}
+tr, td {
+    margin: 0px;
+    border: 1px solid #999;
+}
+
+table span {
+    /*  top/bottom: 1px 
+        left/right: 20px */
+    padding: 1px 20px; 
+}
+
+.size {
+    width: 30%;
 }
 
 a {
